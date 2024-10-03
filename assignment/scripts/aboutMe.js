@@ -41,20 +41,20 @@ let friendsPets = 3;
 // 10 - Add two pets to your `pets` variable
 pets += 2;
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-const allowedPets = 3;
+let allowedPets = 3;
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
-let result = true;
-if (adventurous === true){
-  console.log('Avdentures are great!')
+let result;
+if (adventurous) {
+  result = ('Adventures are great!')
 }
   else {
-    console.log('How about we stay home')
+    result = ('How about we stay home')
 
   }
-
+console.log(result);
 
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
 //      Create a compound conditional: 
@@ -74,7 +74,7 @@ console.log(diceRoll);
 //      set `petStatus` to the value of "I have enough pets" 
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
-let petStatus = pets + friendsPets
+let petStatus = pets
 if (petStatus <= allowedPets){
   console.log('I can have more pets!')
 }
@@ -99,6 +99,22 @@ console.log(petStatus);
 //      You'll need to research how to use switch statements!
 //      console.log `luckyResult` after the conditional has run.
 
+let luckyResult = luckyNumber
+switch (luckyResult) {
+  case 1:
+    console.log('First is the worst');
+    break
+  case 2:
+    console.log('Second is the best');
+    break
+  case 3:
+    console.log('Third is the one with the polka dot dress');
+    break
+  default:
+    console.log('Luck is what happens when preparation meets opportunity')
+    break
+}
+console.log(luckyResult);
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 
 
