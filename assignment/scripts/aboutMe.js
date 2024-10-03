@@ -66,6 +66,9 @@ if (luckyNumber === 2 && adventurous === true){
   diceRoll = 'Roll the Dice!';
 }
 console.log(diceRoll);
+// I am unable to decipher the issue on why this is not being read as completed in the browser view.
+
+
 // 14 - Create a variable called `petStatus`. 
 //      Write a conditional that covers the following:
 //      if the value of `pets` is less than the value of `allowedPets`,
@@ -74,14 +77,16 @@ console.log(diceRoll);
 //      set `petStatus` to the value of "I have enough pets" 
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
-let petStatus = pets
-if (petStatus <= allowedPets){
-  console.log('I can have more pets!')
+let petStatus;
+if (pets < allowedPets){
+  console.log('I can have more pets.')
 }
-else {
-  console.log('Oh no, I have to many pets!')
-}
-console.log(petStatus);
+else if (pets = allowedPets) 
+  console.log('I have enough pets')
+
+else if (pets > allowedPets)
+  console.log('Oh no, I have too many pets!')
+
 // STRETCH GOALS:
 
 // 15 - Make a variable called `mostPets` and a conditional that
