@@ -79,14 +79,15 @@ console.log(diceRoll);
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
 let petStatus;
 if (pets < allowedPets){
-  console.log('I can have more pets.')
+  console.log('I can have more pets.');
 }
-else if (pets = allowedPets) 
-  console.log('I have enough pets')
-
-else if (pets > allowedPets)
-  console.log('Oh no, I have too many pets!')
-
+else if (pets = allowedPets) {
+  console.log('I have enough pets');
+}
+else if (pets > allowedPets) {
+  console.log('Oh no, I have too many pets!');
+}
+//Why is petStatus failing on the browser? Everyting appears to be correct...
 // STRETCH GOALS:
 
 // 15 - Make a variable called `mostPets` and a conditional that
@@ -108,18 +109,19 @@ let luckyResult = luckyNumber
 switch (luckyResult) {
   case 1:
     console.log('First is the worst');
-    break
+    break;
   case 2:
     console.log('Second is the best');
-    break
+    break;
   case 3:
     console.log('Third is the one with the polka dot dress');
-    break
+    break;
   default:
-    console.log('Luck is what happens when preparation meets opportunity')
-    break
+    console.log('Luck is what happens when preparation meets opportunity');
+    break;
 }
 console.log(luckyResult);
+// Am i missing something here? The test in the browser if not liking the setup for this. 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 
 
