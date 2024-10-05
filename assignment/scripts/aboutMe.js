@@ -121,7 +121,9 @@ switch (luckyResult) {
     break;
 }
 console.log(luckyResult);
-// Am i missing something here? The test in the browser if not liking the setup for this. 
+
+// Am i missing something here? The test in the browser is not liking the setup for this. 
+
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 
 
