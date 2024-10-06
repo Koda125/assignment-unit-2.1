@@ -10,7 +10,7 @@ let fullName = firstName + lastName;
 console.log('My name is ', fullName);
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
-let luckyNumber = 13
+let luckyNumber = 2
 console.log("My lucky number is ", luckyNumber);
 
 // 5 - Create a variable `introduction` and using the variables from above,
@@ -63,12 +63,10 @@ console.log(result);
 //      Console log the value of `diceRoll`
 let diceRoll = 'Try again later';
 if (luckyNumber === 2 && adventurous === true){
-  diceRoll = 'Roll the Dice!';
+  diceRoll = 'Roll the dice!';
 }
 console.log(diceRoll);
-// I am unable to decipher the issue on why this is not being read as completed in the browser view.
-
-
+//
 // 14 - Create a variable called `petStatus`. 
 //      Write a conditional that covers the following:
 //      if the value of `pets` is less than the value of `allowedPets`,
@@ -77,7 +75,7 @@ console.log(diceRoll);
 //      set `petStatus` to the value of "I have enough pets" 
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
-let petStatus;
+let petStatus = 'Total number of pets'
 if (pets < allowedPets){
   console.log('I can have more pets.');
 }
@@ -87,7 +85,7 @@ else if (pets = allowedPets) {
 else if (pets > allowedPets) {
   console.log('Oh no, I have too many pets!');
 }
-//Why is petStatus failing on the browser? Everyting appears to be correct...
+// Looking for feedback on this one. I believe I have everything set up correctly, but the auto tests are failing.
 // STRETCH GOALS:
 
 // 15 - Make a variable called `mostPets` and a conditional that
