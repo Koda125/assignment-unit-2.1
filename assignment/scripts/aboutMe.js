@@ -75,16 +75,22 @@ console.log(diceRoll);
 //      set `petStatus` to the value of "I have enough pets" 
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
-let petStatus = 'Total number of pets'
+ let petStatus;
 if (pets < allowedPets){
-  console.log('I can have more pets.');
+  let petStatus = "I can have more pets";
+  console.log(petStatus);
 }
 else if (pets = allowedPets) {
-  console.log('I have enough pets');
+  let petStatus = "I have enough Pets";
+  console.log(petStatus);
 }
 else if (pets > allowedPets) {
-  console.log('Oh no, I have too many pets!');
+  let petStatus = "Oh no, I have to many pets!";
+  console.log(petStatus)
 }
+
+
+
 // Looking for feedback on this one. I believe I have everything set up correctly, but the auto tests are failing.
 // STRETCH GOALS:
 
@@ -104,6 +110,7 @@ else if (pets > allowedPets) {
 //      console.log `luckyResult` after the conditional has run.
 
 let luckyResult = luckyNumber
+
 switch (luckyResult) {
   case 1:
     console.log('First is the worst');
