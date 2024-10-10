@@ -107,20 +107,20 @@ console.log(petStatus)
 //      You'll need to research how to use switch statements!
 //      console.log `luckyResult` after the conditional has run.
 
-let luckyResult = luckyNumber
+let luckyResult;
 
-switch (luckyResult) {
+switch (luckyNumber) {
   case 1:
-    console.log('First is the worst');
+    luckyResult = 'First is the worst'
     break;
   case 2:
-    console.log('Second is the best');
+    luckyResult = 'Second is the best';
     break;
   case 3:
-    console.log('Third is the one with the polka dot dress');
+    luckyResult = 'Third is the one with the polka dot dress';
     break;
   default:
-    console.log('Luck is what happens when preparation meets opportunity');
+    luckyResult = 'Luck is what happens when preparation meets opportunity';
     break;
 }
 console.log(luckyResult);
