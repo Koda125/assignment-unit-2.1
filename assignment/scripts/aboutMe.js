@@ -77,20 +77,18 @@ console.log(diceRoll);
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
  let petStatus;
 if (pets < allowedPets){
-  let petStatus = "I can have more pets";
+  petStatus = "I can have more pets";
   console.log(petStatus);
 }
 else if (pets = allowedPets) {
-  let petStatus = "I have enough Pets";
+  petStatus = "I have enough pets";
   console.log(petStatus);
 }
 else if (pets > allowedPets) {
-  let petStatus = "Oh no, I have to many pets!";
-  console.log(petStatus)
+  petStatus = "Oh no, I have to many pets!";
+  
 }
-
-
-
+console.log(petStatus)
 // Looking for feedback on this one. I believe I have everything set up correctly, but the auto tests are failing.
 // STRETCH GOALS:
 
